@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "saved_at": "2026-11-24T14:14:53",
+  "patients": [
+    {
+      "person_id": "P001",
+      "name": "Maya Shah",
+      "phone": "4085550100",
+      "care_notes": [
+        "No known drug allergies."
+      ]
+    },
+    {
+      "person_id": "P002",
+      "name": "Liam Carter",
+      "phone": "2145550142",
+      "care_notes": [
+        "Allergic to penicillin."
+      ]
+    },
+    {
+      "person_id": "P003",
+      "name": "Sofia Hernandez",
+      "phone": "9725550178",
+      "care_notes": [
+        "Prefers morning appointments."
+      ]
+    },
+    {
+      "person_id": "P004",
+      "name": "Noah Kim",
+      "phone": "4695550114",
+      "care_notes": []
+    },
+    {
+      "person_id": "P005",
+      "name": "Ava Johnson",
+      "phone": "8175550166",
+      "care_notes": []
+    },
+    {
+      "person_id": "P006",
+      "name": "Ethan Brooks",
+      "phone": "2145550190",
+      "care_notes": []
+    },
+    {
+      "person_id": "P007",
+      "name": "Anita Das",
+      "phone": "4085550126",
+      "care_notes": []
+    },
+    {
+      "person_id": "P008",
+      "name": "Anamika",
+      "phone": "4085550126",
+      "care_notes": []
+    },
+    {
+      "person_id": "P009",
+      "name": "Adnan",
+      "phone": "2039897433",
+      "care_notes": []
+    }
+  ],
+  "nurses": [
+    {
+      "person_id": "N001",
+      "name": "Lee"
+    },
+    {
+      "person_id": "N002",
+      "name": "Priya Nair"
+    },
+    {
+      "person_id": "N003",
+      "name": "Jordan Brooks"
+    },
+    {
+      "person_id": "N004",
+      "name": "Anne-Marie"
+    }
+  ],
+  "administrators": [
+    {
+      "person_id": "A001",
+      "name": "Sam Ortiz"
+    }
+  ],
+  "nurse_administrators": [
+    {
+      "person_id": "NA001",
+      "name": "Alex"
+    }
+  ],
+  "doctors": [
+    {
+      "person_id": "D001",
+      "name": "Dr. Rao",
+      "specialty": "Family Medicine",
+      "assigned_nurse_id": "N001"
+    },
+    {
+      "person_id": "D002",
+      "name": "Dr. Chen",
+      "specialty": "Pediatrics",
+      "assigned_nurse_id": "N002"
+    },
+    {
+      "person_id": "D003",
+      "name": "Dr. Okafor",
+      "specialty": "Cardiology",
+      "assigned_nurse_id": "N003"
+    },
+    {
+      "person_id": "D004",
+      "name": "Dr. Nguyen",
+      "specialty": "Dermatology",
+      "assigned_nurse_id": "NA001"
+    }
+  ],
+  "availability": {
+    "D001": [
+      {
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "D002": [
+      {
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "D003": [
+      {
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "D004": [
+      {
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ]
+  },
+  "appointments": [
+    {
+      "appointment_id": "4556469f-8ebb-4f41-8d50-92fc67283e5a",
+      "patient_id": "P002",
+      "doctor_id": "D002",
+      "starts_at": "2026-11-22T10:00:00",
+      "ends_at": "2026-11-22T10:30:00",
+      "status": "booked"
+    },
+    {
+      "appointment_id": "db05a8e5-3cef-491f-b020-749649d56317",
+      "patient_id": "P002",
+      "doctor_id": "D002",
+      "starts_at": "2026-11-22T11:00:00",
+      "ends_at": "2026-11-22T11:30:00",
+      "status": "booked"
+    },
+    {
+      "appointment_id": "32d11b34-8773-4d79-b477-d5d5192101d9",
+      "patient_id": "P001",
+      "doctor_id": "D001",
+      "starts_at": "2026-11-23T09:00:00",
+      "ends_at": "2026-11-23T09:30:00",
+      "status": "booked"
+    },
+    {
+      "appointment_id": "55f94191-df74-4ee4-9663-d4d082e119b5",
+      "patient_id": "P002",
+      "doctor_id": "D002",
+      "starts_at": "2026-11-23T10:00:00",
+      "ends_at": "2026-11-23T10:30:00",
+      "status": "booked"
+    },
+    {
+      "appointment_id": "a54b1ffe-32f7-42cf-8761-fbfa0d9cf71e",
+      "patient_id": "P003",
+      "doctor_id": "D003",
+      "starts_at": "2026-11-23T11:00:00",
+      "ends_at": "2026-11-23T11:30:00",
+      "status": "booked"
+    },
+    {
+      "appointment_id": "6be6bdd6-e988-45c1-93a6-3a3ff232caec",
+      "patient_id": "P006",
+      "doctor_id": "D002",
+      "starts_at": "2026-11-24T09:00:00",
+      "ends_at": "2026-11-24T09:30:00",
+      "status": "cancelled"
+    },
+    {
+      "appointment_id": "ae83a5cf-2b63-4036-9a0b-6ebeb9ac2f18",
+      "patient_id": "P004",
+      "doctor_id": "D004",
+      "starts_at": "2026-11-24T09:30:00",
+      "ends_at": "2026-11-24T10:00:00",
+      "status": "booked"
+    },
+    {
+      "appointment_id": "beec5e82-3208-48f3-ac52-554e82624422",
+      "patient_id": "P005",
+      "doctor_id": "D001",
+      "starts_at": "2026-11-24T10:30:00",
+      "ends_at": "2026-11-24T11:00:00",
+      "status": "booked"
+    },
+    {
+      "appointment_id": "ce45e3b9-42d0-4fdf-a48a-a061ea4791d6",
+      "patient_id": "P002",
+      "doctor_id": "D002",
+      "starts_at": "2026-11-24T13:30:00",
+      "ends_at": "2026-11-24T14:00:00",
+      "status": "booked"
+    }
+  ],
+  "medical_records": [
+    {
+      "created_at": "2026-11-22T05:30:58.542691",
+      "updated_at": "2026-11-22T05:30:58.543315",
+      "record_id": "ded0e268-b939-4d49-abf9-4244b3d0fd3d",
+      "appointment_id": "32d11b34-8773-4d79-b477-d5d5192101d9",
+      "patient_id": "P001",
+      "doctor_id": "D001",
+      "summary": "Seasonal flu symptoms for three days; advised rest and fluids.",
+      "prescriptions": [
+        {
+          "created_at": "2026-11-22T05:30:58.543315",
+          "updated_at": "2026-11-22T05:30:58.543315",
+          "prescription_id": "25d19d04-5174-4609-8490-f5f14026aff2",
+          "medication": "Oseltamivir",
+          "dosage": "75 mg",
+          "frequency": "Twice daily",
+          "duration_days": 5,
+          "instructions": "Take with food.",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-11-22T06:03:57.479474",
+      "updated_at": "2026-11-22T06:03:57.480286",
+      "record_id": "ca79f94e-253d-4356-b683-97d925807119",
+      "appointment_id": "55f94191-df74-4ee4-9663-d4d082e119b5",
+      "patient_id": "P002",
+      "doctor_id": "D002",
+      "summary": "Ear infection; follow up in one week.",
+      "prescriptions": [
+        {
+          "created_at": "2026-11-22T06:03:57.480286",
+          "updated_at": "2026-11-22T06:03:57.480286",
+          "prescription_id": "54623a22-76e2-435c-a83b-85b772d9e42e",
+          "medication": "Amoxicillin",
+          "dosage": "250 mg",
+          "frequency": "Three times daily",
+          "duration_days": 7,
+          "instructions": "Finish the full course.",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-11-22T06:03:57.481428",
+      "updated_at": "2026-11-22T06:03:57.482630",
+      "record_id": "a25efc02-8054-40a2-ace2-6b8186644457",
+      "appointment_id": "a54b1ffe-32f7-42cf-8761-fbfa0d9cf71e",
+      "patient_id": "P003",
+      "doctor_id": "D003",
+      "summary": "Routine heart check; blood pressure slightly high.",
+      "prescriptions": [
+        {
+          "created_at": "2026-11-22T06:03:57.481961",
+          "updated_at": "2026-11-22T06:03:57.481961",
+          "prescription_id": "fe1c7273-4e21-4468-90ad-0e878ea4e4fb",
+          "medication": "Lisinopril",
+          "dosage": "10 mg",
+          "frequency": "Once daily",
+          "duration_days": 30,
+          "instructions": "Take in the morning.",
+          "status": "active"
+        },
+        {
+          "created_at": "2026-11-22T06:03:57.482630",
+          "updated_at": "2026-11-22T06:03:57.482630",
+          "prescription_id": "67db58d0-1e94-475e-a560-01a07cc99dcd",
+          "medication": "Aspirin",
+          "dosage": "81 mg",
+          "frequency": "Once daily",
+          "duration_days": 30,
+          "instructions": "",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-11-22T06:03:57.484276",
+      "updated_at": "2026-11-22T06:03:57.485041",
+      "record_id": "6ac81615-f689-4067-8d68-b3000083b7aa",
+      "appointment_id": "ae83a5cf-2b63-4036-9a0b-6ebeb9ac2f18",
+      "patient_id": "P004",
+      "doctor_id": "D004",
+      "summary": "Mild eczema on both arms.",
+      "prescriptions": [
+        {
+          "created_at": "2026-11-22T06:03:57.485041",
+          "updated_at": "2026-11-22T06:03:57.485041",
+          "prescription_id": "0b5961b7-9a57-4402-94e9-f7c7487309aa",
+          "medication": "Hydrocortisone cream",
+          "dosage": "1% topical",
+          "frequency": "Twice daily",
+          "duration_days": 14,
+          "instructions": "",
+          "status": "active"
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "created_at": "2026-11-22T05:30:58.543808",
+      "updated_at": "2026-11-22T05:30:58.543808",
+      "interaction_id": "0c0f0deb-6eeb-45f3-aa37-33219bc1a3c9",
+      "patient_id": "P001",
+      "doctor_id": "D001",
+      "interaction_type": "consultation",
+      "notes": "Discussed symptoms and treatment plan.",
+      "appointment_id": "32d11b34-8773-4d79-b477-d5d5192101d9"
+    },
+    {
+      "created_at": "2026-11-22T06:03:57.480899",
+      "updated_at": "2026-11-22T06:03:57.480899",
+      "interaction_id": "69660e4b-7e40-409c-82ba-b80f50d4da8e",
+      "patient_id": "P002",
+      "doctor_id": "D002",
+      "interaction_type": "consultation",
+      "notes": "Examined ears; discussed treatment.",
+      "appointment_id": "55f94191-df74-4ee4-9663-d4d082e119b5"
+    },
+    {
+      "created_at": "2026-11-22T06:03:57.483503",
+      "updated_at": "2026-11-22T06:03:57.483503",
+      "interaction_id": "636cec31-cf71-4906-b32b-df48fad2af21",
+      "patient_id": "P003",
+      "doctor_id": "D003",
+      "interaction_type": "prescription_review",
+      "notes": "Reviewed medications and dosage.",
+      "appointment_id": "a54b1ffe-32f7-42cf-8761-fbfa0d9cf71e"
+    },
+    {
+      "created_at": "2026-11-22T06:03:57.485637",
+      "updated_at": "2026-11-22T06:03:57.485637",
+      "interaction_id": "a1909fb2-7970-4834-8815-24c6607dacf7",
+      "patient_id": "P004",
+      "doctor_id": "D004",
+      "interaction_type": "phone_call",
+      "notes": "Called to check on rash.",
+      "appointment_id": null
+    }
+  ]
+}
